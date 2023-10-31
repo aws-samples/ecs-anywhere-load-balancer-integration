@@ -1,0 +1,19 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.env.local
+cdk.context.json
+
+.temp
+!lib/ip-handler/*
+lib/ip-handler/node_modules
+lib/ip-handler/event.json
+!lib/notification/*
+lib/notification/node_modules
+lib/notification/event.json

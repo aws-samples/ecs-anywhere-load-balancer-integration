@@ -1,0 +1,16 @@
+{
+  "name": "ip-handler",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.438.0",
+    "@aws-sdk/client-elastic-load-balancing-v2": "^3.438.0",
+    "@aws-sdk/client-ssm": "^3.438.0",
+    "aws-embedded-metrics": "^4.1.0"
+  }
+}
